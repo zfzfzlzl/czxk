@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <style>
+        
+    </style>
+</head>
+<body style="background: #f6f6f6;">
+    <div id="warp">
+        <div class="header">
+            <input type="text" class="searchTxt iconfont" placeholder="&#xe64c;请输入基站名称">
+            <span class="searchBtn">搜索</span>
+        </div>
+
+        <div id="nav"  class="swiper-container">
+            <div class="nav swiper-wrapper" >
+                <div class="swiper-slide active-nav selected">
+                    <div>基站状态</div>
+                </div>
+                <div class="swiper-slide">
+                    <div>电池信息</div>
+                </div>
+                <div class="swiper-slide">
+                    <div>放电记录</div>
+                </div>
+                <div class="swiper-slide">
+                    <div>停电记录</div>
+                </div>
+            </div>
+        </div>
+        <div id="page" class="swiper-container" id="page">
+            <div class="swiper-wrapper " >
+                <div class="swiper-slide slidepage" style="width: 25%!important;">
+                    <div class="siteStatusModel">
+                        <div class="singleMsg">
+                            <div class="singleMsg_header">基本</div>
+                            <div class="lists_twomodel">
+                                <div class="lists_twomodel_l">
+                                    <span>基站名称：</span>
+                                    <var>先河环保</var>
+                                </div>
+                                <div class="lists_twomodel_r">
+                                    <span>市电状态：</span>
+                                    <var class="red">停电</var>
+                                </div>
+                            </div>
+                            <div class="lists_onemodel">
+                                <span>开关电源名称：</span>
+                                <var>北京动力源 DUM-48 / 50H3</var>
+                            </div>
+                            <div class="lists_onemodel">
+                                <span>备电时长：</span>
+                                <var>267min</var>
+                            </div>
+                        </div>
+                        <div class="singleMsg">
+                            <div class="singleMsg_header">电池</div>
+                            <div class="lists_twomodel">
+                                <div class="lists_twomodel_l">
+                                    <span>电池品牌：</span>
+                                    <var>先河环保</var>
+                                </div>
+                                <div class="lists_twomodel_r">
+                                    <span>电池组数：</span>
+                                    <var>2组</var>
+                                </div>
+                            </div>
+                            <div class="lists_twomodel">
+                                <div class="lists_twomodel_l">
+                                    <span>标称容量：</span>
+                                    <var>先河环保</var>
+                                </div>
+                                <div class="lists_twomodel_r">
+                                    <span>生产日期：</span>
+                                    <var>2018-12</var>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slidepage" style="width: 25%!important;">
+                    <div class="siteStatusModel">
+                        <div class="singleMsg">
+                            <div class="singleMsg_header">
+                                组一电池
+                                <span>2018-12-5 11:57:44</span>
+                            </div>
+                            <div class="tu"></div>
+                            <div class="lists_twomodel">
+                                <div class="lists_twomodel_l">
+                                    <span>直流电压：</span>
+                                    <var>54.00V</var>
+                                </div>
+                                <div class="lists_twomodel_r">
+                                    <span>负载电流：</span>
+                                    <var>137.00A</var>
+                                </div>
+                            </div>
+                            <div class="lists_twomodel">
+                                <div class="lists_twomodel_l">
+                                    <span>组电压：</span>
+                                    <var>先河环保</var>
+                                </div>
+                                <div class="lists_twomodel_r">
+                                    <span>生产日期：</span>
+                                    <var>2018-12</var>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="singleMsg">
+                            <div class="singleMsg_header">
+                                组二电池
+                                <span>2018-12-5 11:57:44</span>
+                            </div>
+                            <div class="tu"></div>
+                            <div class="lists_twomodel">
+                                <div class="lists_twomodel_l">
+                                    <span>直流电压：</span>
+                                    <var>54.00V</var>
+                                </div>
+                                <div class="lists_twomodel_r">
+                                    <span>负载电流：</span>
+                                    <var>137.00A</var>
+                                </div>
+                            </div>
+                            <div class="lists_twomodel">
+                                <div class="lists_twomodel_l">
+                                    <span>组电压：</span>
+                                    <var>先河环保</var>
+                                </div>
+                                <div class="lists_twomodel_r">
+                                    <span>生产日期：</span>
+                                    <var>2018-12</var>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="swiper-slide slidepage" style="width: 25%!important;">
+                    <div class="table_zi">
+                        <div class="table_tr">
+                            <div style="width: 1.62rem;">停电时间</div>
+                            <div style="width: 1.62rem;">停电历时</div>
+                            <div style="width: 1.42rem;">放电时长</div>
+                            <div style="width: 1.42rem;">负载电流</div>
+                            <div style="width: 1.42rem;">终止电压</div>
+                        </div>
+                        <div class="table_td">
+                            <div style="width: 1.62rem;">2018-11-6 </div>
+                            <div style="width: 1.62rem;">11:34-16:30</div>
+                            <div style="width: 1.42rem;">2.5h</div>
+                            <div style="width: 1.42rem;">14A</div>
+                            <div style="width: 1.42rem;">48.5V</div>
+                        </div>
+                        <div class="table_td">
+                            <div style="width: 1.62rem;">2018-11-6 </div>
+                            <div style="width: 1.62rem;">11:34-16:30</div>
+                            <div style="width: 1.42rem;">2.5h</div>
+                            <div style="width: 1.42rem;">14A</div>
+                            <div style="width: 1.42rem;">48.5V</div>
+                        </div>
+                        <div class="table_td">
+                            <div style="width: 1.62rem;">2018-11-6 </div>
+                            <div style="width: 1.62rem;">11:34-16:30</div>
+                            <div style="width: 1.42rem;">2.5h</div>
+                            <div style="width: 1.42rem;">14A</div>
+                            <div style="width: 1.42rem;">48.5V</div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="swiper-slide slidepage" style="width: 25%!important;">
+                    <div class="table_zi">
+                        <div class="table_tr">
+                            <div style="width: 1.62rem;">放电时间</div>
+                            <div style="width: 1.62rem;">放电历时</div>
+                            <div style="width: 1.42rem;">放电时长</div>
+                            <div style="width: 1.42rem;">负载电流</div>
+                            <div style="width: 1.42rem;">终止电压</div>
+                        </div>
+                        <div class="table_td">
+                            <div style="width: 1.62rem;">2018-11-6 </div>
+                            <div style="width: 1.62rem;">11:34-16:30</div>
+                            <div style="width: 1.42rem;">2.5h</div>
+                            <div style="width: 1.42rem;">14A</div>
+                            <div style="width: 1.42rem;">48.5V</div>
+                        </div>
+                        <div class="table_td">
+                            <div style="width: 1.62rem;">2018-11-6 </div>
+                            <div style="width: 1.62rem;">11:34-16:30</div>
+                            <div style="width: 1.42rem;">2.5h</div>
+                            <div style="width: 1.42rem;">14A</div>
+                            <div style="width: 1.42rem;">48.5V</div>
+                        </div>
+                        <div class="table_td">
+                            <div style="width: 1.62rem;">2018-11-6 </div>
+                            <div style="width: 1.62rem;">11:34-16:30</div>
+                            <div style="width: 1.42rem;">2.5h</div>
+                            <div style="width: 1.42rem;">14A</div>
+                            <div style="width: 1.42rem;">48.5V</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="height: 0.77rem;"></div>
+        
+        <div class="noMsg404"></div>
+    </div>
+</body>
+<script src="js/rem.js"></script>
+<script src="js/zepto.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/swiperNav.js"></script>
+<!-- <script type="text/javascript" src="js/lib/jquery-3.2.1.js"></script>
+<script type="text/javascript" src="js/echarts.min.js"></script>
+<script src="js/lib/vue.min.js"></script>
+<script src="js/jqueryCity/city.js"></script>
+
+<script src="js/config.js"></script>
+<script type="text/javascript" src="js/vue.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/index.js"></script> -->  
+</html>
